@@ -22,3 +22,84 @@ h1{
 h2{
     font-size: 3rem;
 }
+a{
+    text-decoration: none;
+}
+/* navigation style */
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    margin:0 10%;
+}
+.plan{
+    display:inline-block; 
+    width:20%;
+    text-align:center;
+    padding:2% 4%;
+    border-radius:10px; 
+    background-color:#FF764E;
+    color:#fff;
+    transition:2s;
+    border:3px solid #FF764E;
+}
+.plan:hover{
+    background-color:#fff;
+    color: #FF764E;
+}
+.park{
+    display:inline-block; 
+    width:20%;
+    text-align:center;
+    padding:2% 4%;
+    border-radius:10px; 
+    background-color:#5ED3EB;
+    color:#fff;
+    transition:2s;
+    border:3px solid #5ED3EB;
+}
+.park:hover{
+    background-color:#fff;
+    color: #5ED3EB;
+}
+.involved{
+    display:inline-block; 
+    width:20%;
+    text-align:center;
+    padding:2% 4%;
+    border-radius:10px; 
+    background-color:#FFCD69;
+    color:#fff;
+    transition:2s;
+    border:3px solid #FFCD69;
+    margin: 0 10%;
+}
+.involved:hover{
+    background-color:#fff;
+    color: #FFCD69;
+}
+
+/* top section styles */
+#top{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.left img{
+    border-radius: 50%;
+    width: 30%;
+}
+.right{
+    width:80%;
+}
+
+/*paragraph section styles*/
+.one{
+    text-align:center;
+    background-color: #DDB9A3;
+    margin:0 10%;
+}
+
+/* middle section styles */
+.two{
+
+}
